@@ -1,90 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reglas Fútbol</title>
-</head>
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-    .links:visited {
-        text-decoration: none;
-    }
-    .links {
-    color: rgb(9, 81, 122);
-    text-decoration: none;
-    }
-     /* Style the button that is used to open and close the collapsible content */
-    .collapsible {
-      background-color: #eee;
-      color: #444;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-
-    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-    .active, .collapsible:hover {
-      background-color: #ccc;
-    }
-
-    /* Style the collapsible content. Note: hidden by default */
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    } 
-    /*h1  {color:rgb(215, 236, 255); font-family: Georgia, serif}
-    /*h2  {color:rgb(215, 236, 255); font-family: Georgia, serif}
-    /*p  {color:rgb(215, 236, 255); font-family: Georgia, serif}
-</style>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-<body>
-    <center>
-        <h1>Reglas Fútbol | Soccer Rules</h1>
-        <h2>Alguno Official reglas de FIFA | Some Official FIFA Rules</h2>
-    </center>
-    <button type="button" class="collapsible">La Balón</button>
-    <div class="content">
-        <p>La Balón debe ser esférico y tendra circunferencia entre sesenta y ocho centímetro a stenta centímetro. También debe tiene presión entre ocho a quince presíon.</p>
-    </div>
-    <h2>El Terreno</h2>
-    <p>     El tamaño de terreno de jeugo es noventa por ciento viente metros. El terreno está hecho de hierba o artificial hierba en adentro y afuera juego terreno.</p>
-    <h2>Equipos y Jugadoras</h2>
-    <p>     Cada equipo tiene veintiuno jugadoras y once sobre el terreno a la vez por equipo.</p>
-    <h2>Goles y Porteros</h2>
-    <p>     La goles es dos y medio metres alta y siete metres ancho. El portero es el único jugador que puede tocar el balón con sus manos.</p>
-    <h2>Sources</h2>
-    <p>Source 1:<a href="https://ojo.pe/deportes/las-diez-reglas-basicas-de-futbol-noticia/?ref=ojr">ojo.pe</a></p>
-    <p>Source 2:<a href="https://arbitraje.fmf.mx/reglas-juego">Arbitraje.fmf.mx</a></p>
-</body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .collapsible {
@@ -121,20 +37,24 @@ for (i = 0; i < coll.length; i++) {
 <div class="content">
   <p>La Balón debe ser esférico y tendra circunferencia entre sesenta y ocho centímetro a stenta centímetro. También debe tiene presión entre ocho a quince presíon.</p>
 </div>
-<button type="button" class="collapsible">Open Section 2</button>
+<button type="button" class="collapsible">El Terreno</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>El tamaño de terreno de jeugo es noventa por ciento viente metros. El terreno está hecho de hierba o artificial hierba en adentro y afuera juego terreno.</p>
 </div>
-<button type="button" class="collapsible">Open Section 3</button>
+<button type="button" class="collapsible">Equipos y Jugadoras</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Cada equipo tiene veintiuno jugadoras y once sobre el terreno a la vez por equipo.</p>
+</div>
+<button type="button" class="collapsible">Goles y Porteros</button>
+<div class="content">
+  <p>La goles es dos y medio metres alta y siete metres ancho. El portero es el único jugador que puede tocar el balón con sus manos.</p>
 </div>
 
 
-<p>Sources</p>
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible">Sources</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Source 1:<a href="https://ojo.pe/deportes/las-diez-reglas-basicas-de-futbol-noticia/?ref=ojr">ojo.pe</a></p>
+    <p>Source 2:<a href="https://arbitraje.fmf.mx/reglas-juego">Arbitraje.fmf.mx</a></p>
 </div>
 <script>
 var coll = document.getElementsByClassName("collapsible");
