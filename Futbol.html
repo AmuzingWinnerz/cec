@@ -14,18 +14,44 @@
     color: rgb(9, 81, 122);
     text-decoration: none;
     }
-    h1  {color:rgb(215, 236, 255); font-family: Georgia, serif}
-    h2  {color:rgb(215, 236, 255); font-family: Georgia, serif}
-    p  {color:rgb(215, 236, 255); font-family: Georgia, serif}
+     /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+      background-color: #ccc;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    } 
+    /*h1  {color:rgb(215, 236, 255); font-family: Georgia, serif}
+    /*h2  {color:rgb(215, 236, 255); font-family: Georgia, serif}
+    /*p  {color:rgb(215, 236, 255); font-family: Georgia, serif}
 </style>
 <body>
-    <body style ="background-color:#464646">
     <center>
         <h1>Reglas Fútbol | Soccer Rules</h1>
         <h2>Alguno Official reglas de FIFA | Some Official FIFA Rules</h2>
     </center>
-    <h2>La Balón</h2>
-    <p>     La Balón debe ser esférico y tendra circunferencia entre sesenta y ocho centímetro a stenta centímetro. También debe tiene presión entre ocho a quince presíon.</p>
+    <button type="button" class="collapsible">La Balón</button>
+    <div class="content">
+        <p>La Balón debe ser esférico y tendra circunferencia entre sesenta y ocho centímetro a stenta centímetro. También debe tiene presión entre ocho a quince presíon.</p>
+    </div>
     <h2>El Terreno</h2>
     <p>     El tamaño de terreno de jeugo es noventa por ciento viente metros. El terreno está hecho de hierba o artificial hierba en adentro y afuera juego terreno.</p>
     <h2>Equipos y Jugadoras</h2>
